@@ -1,0 +1,16 @@
+{ "items": [
+  { "id": 1, "name": "Apple", "category": "Groceries", "image": "apple.jpg"},
+  { "id": 2, "name": "Banana", "category": "Groceries", "image": "banana.jpg"},
+  { "id": 3, "name": "Curd", "category": "Groceries", "image": "curd.jpg"},
+  { "id": 4, "name": "Dates", "category": "Groceries", "image": "dates.jpg"},
+  { "id": 5, "name": "Television", "category": "Electronics", "image": "tv.jpg"},
+  { "id": 6, "name": "Fridge", "category": "Electronics", "image": "fridge.jpg"},
+  { "id": 7, "name": "Headset", "category": "Electronics", "image": "headset.jpg"},
+  { "id": 7, "name": "Laptop", "category": "Electronics", "image": "laptop.jpg"},
+  { "id": 7, "name": "Grapes", "category": "Groceries", "image": "grapes.jpg"},
+  { "id": 7, "name": "Milk", "category": "Groceries", "image": "milk.jpg"},
+  { "id": 7, "name": "Bread", "category": "Groceries", "image": "bread.jpg"},
+  { "id": 7, "name": "Tomato", "category": "Groceries", "image": "tomato.jpg"},
+  { "id": 7, "name": "USB Cable", "category": "Electronics", "image": "usb.png"},
+  { "id": 7, "name": "Speaker", "category": "Electronics", "image": "speaker.jpg"}
+]}
