@@ -8,6 +8,7 @@ interface ItemType {
   name: string;
   category: string;
   image: string;
+  amount: number;
 }
 
 const Typeahead: React.FC = () => {
@@ -22,7 +23,7 @@ const Typeahead: React.FC = () => {
 
     // Filter data based on input value
     const filteredItems = items.filter(item =>
-      (item.name.toLowerCase().includes(value.toLowerCase()))
+      (item.name.toLowerCase().includes(value.toLowerCase()) || item.category.toLowerCase().includes(value.toLowerCase()))
     );
     setFilteredData(filteredItems);
   };
@@ -32,8 +33,9 @@ const Typeahead: React.FC = () => {
       <input
         type="text"
         value={input}
+        className='sbox'
         onChange={handleInputChange}
-        placeholder="Search with category or item"
+        placeholder="Search with category or item (For eg: Fruits, Electronics, Apple)"
       />
       <Homepage data={filteredData} />
     </div>

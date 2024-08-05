@@ -9,11 +9,11 @@ function App() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Typeahead</Navbar.Brand>
+          <Navbar.Brand href="#">Online Market</Navbar.Brand>
         </Container>
       </Navbar>
-      <div>
-        <h1>Typeahead Example</h1>
+      <div className='container'>
+        <h3 className='stext'>Online Market Place</h3>
         <Typeahead />
       </div>
     </>

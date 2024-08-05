@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  height: 200px;
+  border: 1px solid black;
+}
+.card-body {
+  background-color: #282c34;
+}
+.sbox {
+  width: 75%;
+  margin-left: 15%;
+}
+.stext {
+  margin: 2% 0% 1% 40%;
+}
+.item {
+  margin-top: 20px;
+}
+
+.btn {
+  float: right;
+  background-color: #12161e;
+}
+
+.card-title {
+  text-align: center;
+  color: aliceblue;
+}
+
+.amount {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.img {
+  height: 180px;
+  width: 100px;
+  margin: auto;
+  
+}
