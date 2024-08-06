@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Card, Button} from 'react-bootstrap';
+import {Container, Row, Card, Button} from 'react-bootstrap';
 import { FaCartPlus } from "react-icons/fa6";
 
 interface HomepageProps {

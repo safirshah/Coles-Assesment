@@ -61,7 +61,18 @@
 .slist{
   padding: 0.5%;
 }
-
+.slist-container {
+  background: beige;
+}
+.category{
+  padding-left: 1%;
+}
+.title{
+  background: #282c34;
+  padding: 0.5%;
+  width: 99%;
+  color: white;
+}
 .item {
   margin-top: 20px;
 }
